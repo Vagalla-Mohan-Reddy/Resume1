@@ -1,0 +1,66 @@
+*{
+	background-color: lightgrey;
+}
+h2{
+	color:blue;
+}
+.card1>h2
+{
+	color:blue;
+}
+.container{
+	display: flex;
+	flex-direction:row;
+}
+.card1{
+	border:2px solid grey;
+	margin:1%;
+	padding:1%;
+	width:45%;
+}
+.image{
+	margin-right: auto;
+	margin-left:auto;
+	padding-left:28%;
+}
+.table1{
+ border:2px solid black;
+ border-radius:2%;
+ padding: 0% 2% 0% 2%;
+}
+.card1>span,.good{
+	float:right;
+	background-color: green;
+	border:2px solid green;
+	border-radius: 10%;
+}
+.card1>span,.average{
+	float:right;
+	background-color: blue;
+	border:2px solid blue;
+	border-radius: 10%;
+}
+.card1>span,.poor{
+	float:right;
+	background-color: red;
+	border:2px solid red;
+	border-radius: 10%;
+}
+.card2{
+	border:2px solid grey;
+	margin:1%;
+	padding:1%;
+	max-width:auto;
+}
+table{
+	border-collapse: collapse;
+	max-width:100%;
+}
+th,td{
+	padding: 8px;
+	text-align:left;
+	border-bottom: 2px solid black;
+}
+.para{
+	font-size:20px;
+}
